@@ -1,0 +1,57 @@
+cmd
+cd/      to return previous folder
+C:\Users\SATISH>D:   to go any other drive
+dir     to show all folder in side that path
+cd and foldername    to access any folder
+java -version   to know the version
+mvn -version    to know properly installed
+java -jar Jenkins.war path   to open and run jenkin server
+
+// to run maven from command line------
+//testng.xml should be in maven project itself
+// go to the maven folder in cmd line
+//and then write mvn test
+example --E:\Selenium\MavenProject>mvn test
+
+
+http://localhost:8080
+JENKINS
+admin/password
+
+=========================Testing==========================
+
+1st Time Push Your Maven Project to git
+---------------------------------------
+1. Create your login in git hub and create a repository there and find the Link for that
+example : -https://github.com/satishselenium/MyFirstMavenProject.git
+2. Go to your local folder, where maven project is there.
+3. Go to cmd from that folder.
+  Type
+  git init  (Output--Initialized empty Git repository in E:/Selenium/MavenProject/.git/)
+  git add . (Added all file )
+  git commit -m "First Commit"  (Give comment)
+  git remote add origin https://github.com/satishselenium/MyFirstMavenProject.git
+  git push -u origin --all
+  
+ it will ask git username and password.
+ git status  (To know status any timr)
+ 
+ Take clone to your new drive
+ ----------------------------
+ git clone drivename
+ 
+ 
+  ---------------------
+ To add individual file
+ ----------------------
+ git add <Individual file name with path>
+ Example : - git add  src/test/java/testCases/Testing3.java
+ git commit -m "comment or reason for the update"
+ git status
+ git pull
+ 
+ 
+ 
+ 
+ 
+ 

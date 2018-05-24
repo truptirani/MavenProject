@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listenerClass.ListenerTest"/>
+    <listener class-name="listenerClass.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Test Suite(failed)">
+    <classes>
+      <class name="testCases.Allmediany_SignUpPage_Test">
+        <methods>
+          <include name="endReport"/>
+          <include name="startTest"/>
+          <include name="Allmediany_SignUpPage_TestCase" invocation-numbers="1 2 3 4"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- testCases.Allmediany_SignUpPage_Test -->
+    </classes>
+  </test> <!-- Test Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
